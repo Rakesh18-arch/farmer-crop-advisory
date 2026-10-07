@@ -1,10 +1,19 @@
 =============================================================
 FARMER CROP ADVISORY PLATFORM - 24/7 ACTIVE PUBLIC URL
 =============================================================
-URL: https://individuals-pressing-vacuum-tested.trycloudflare.com
+URL: https://lap-hampton-professionals-retail.trycloudflare.com
 
 Status: ACTIVE (Cloudflare Edge SSL)
 Mobile & Desktop: 100% Compatible, Zero Passwords, Zero Waiting
+
+GITHUB REPOSITORY:
+https://github.com/Rakesh18-arch/farmer-crop-advisory
+
+GITHUB RELEASES (DOWNLOAD .ZIP):
+https://github.com/Rakesh18-arch/farmer-crop-advisory/releases/tag/v1.0.0
+
+DIRECT 1-CLICK ZIP DOWNLOAD:
+https://github.com/Rakesh18-arch/farmer-crop-advisory/raw/main/downloads/farmer-crop-advisory.zip
 
 DEMO ACCOUNTS:
 1. Farmer Role:
@@ -21,5 +30,5 @@ LLM ENGINES ACTIVE:
 - Groq Llama 3.3 70B (If GROQ_API_KEY set)
 - OpenAI GPT-4o Mini (If OPENAI_API_KEY set)
 
-Updated At: 2026-10-07 20:06:18
+Updated At: 2026-10-07 21:10:00
 =============================================================

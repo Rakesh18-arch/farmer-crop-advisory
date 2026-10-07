@@ -59,7 +59,7 @@ def main():
             continue
         print(line, end='', flush=True)
         m = re.search(r'https://[a-zA-Z0-9\-]+\.trycloudflare\.com', line)
-        if m:
+        if m and "api.trycloudflare.com" not in m.group(0):
             public_url = m.group(0)
             break
 
