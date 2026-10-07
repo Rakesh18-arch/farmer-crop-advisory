@@ -1,0 +1,89 @@
+{
+  "app_title": "Farmer Crop Advisory Platform",
+  "app_subtitle": "AI-Based Smart Decision Support System for Farmers",
+  "nav": {
+    "dashboard": "Dashboard",
+    "profile": "Farmer Profile",
+    "crop_advisory": "Crop Advisory",
+    "soil_analysis": "Soil Analysis",
+    "weather": "Weather & Forecast",
+    "irrigation": "Irrigation Advisory",
+    "fertilizer": "Fertilizer Calculator",
+    "disease_detection": "Crop Disease AI",
+    "pest_advisory": "Pest Advisory",
+    "market_prices": "APMC Mandi Rates",
+    "schemes": "Government Schemes",
+    "calendar": "Crop Calendar",
+    "yield_prediction": "Harvest Yield AI",
+    "chatbot": "Agri AI Assistant",
+    "notifications": "Notifications",
+    "admin": "Admin Portal",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "active_farm": "Farm Status",
+    "current_crop": "Current Crop",
+    "soil_health": "Soil Health",
+    "weather_overview": "Weather Alert",
+    "recommended_actions": "Recommended Field Actions",
+    "quick_crop_recommend": "Get AI Crop Advisory",
+    "scan_leaf": "Scan Plant Leaf",
+    "check_mandi": "Check APMC Rates",
+    "ask_bot": "Ask Agricultural AI"
+  },
+  "crop_recommend": {
+    "title": "AI Crop Recommendation Engine",
+    "subtitle": "Discover optimal crops tailored to soil NPK, pH, weather, and seasonal agro-climatic conditions",
+    "inputs_header": "Soil & Agro-Climatic Parameters",
+    "nitrogen": "Nitrogen (N) kg/ha",
+    "phosphorus": "Phosphorus (P) kg/ha",
+    "potassium": "Potassium (K) kg/ha",
+    "ph": "Soil pH (0-14)",
+    "temp": "Temperature (°C)",
+    "humidity": "Humidity (%)",
+    "rainfall": "Rainfall (mm)",
+    "season": "Target Season",
+    "soil_type": "Soil Type",
+    "btn_submit": "Generate AI Recommendation",
+    "recommended_crop": "Primary Recommended Crop",
+    "confidence": "AI Confidence Score",
+    "alternatives": "Viable Alternative Crops",
+    "rationale": "Agronomic Rationale"
+  },
+  "fertilizer": {
+    "title": "Target Yield Fertilizer Calculator",
+    "subtitle": "Compute precise nutrient deficits and chemical / organic alternatives",
+    "target_yield": "Target Yield (tons/acre)",
+    "btn_calc": "Calculate Fertilizer Dosage"
+  },
+  "disease": {
+    "title": "Plant Leaf Disease Diagnostic AI",
+    "subtitle": "Upload or capture a leaf photo to diagnose fungal, bacterial, and pest infections",
+    "drag_drop": "Drag & drop leaf photo here or click to browse",
+    "btn_scan": "Diagnose Leaf Disease",
+    "detected_disease": "Diagnosed Condition",
+    "treatment": "Recommended Curative Treatment",
+    "organic_treatment": "Organic & Biological Control",
+    "prevention": "Preventative Practices"
+  },
+  "market": {
+    "title": "Live APMC Mandi Market Intelligence",
+    "subtitle": "Real-time crop market prices across APMC mandis and daily price trends",
+    "search_placeholder": "Search commodity or mandi...",
+    "state_filter": "Filter by State",
+    "min_price": "Min Price (₹/Q)",
+    "max_price": "Max Price (₹/Q)",
+    "modal_price": "Modal Price (₹/Q)",
+    "date": "Date"
+  },
+  "chatbot": {
+    "title": "Farmer Agricultural AI Chatbot",
+    "subtitle": "Ask questions in English, Telugu, or Hindi about crops, fertilizer, pests, or market rates",
+    "placeholder": "Type your farming question here...",
+    "send": "Send",
+    "quick_prompts": ["What crop should I grow in Kharif?", "How to cure tomato leaf curl?", "What is today's cotton price?", "PM-KISAN application details"]
+  }
+}

@@ -1,0 +1,44 @@
+services:
+  # ---------------------------------------------------------------------------
+  # 1. Flask Backend Web Service (Render Free/Starter Tier)
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: farmer-advisory-api
+    env: python
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt && python database/seed.py"
+    startCommand: "gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 120 'app:create_app()'"
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: DEMO_MODE
+        value: "true"
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
+  # ---------------------------------------------------------------------------
+  # 2. React Vite Frontend Static Site
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: farmer-advisory-web
+    env: static
+    region: oregon
+    plan: free
+    rootDir: frontend
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: dist
+    routes:
+      # Proxy backend API requests
+      - type: rewrite
+        source: /api/*
+        destination: https://farmer-advisory-api.onrender.com/api/*
+      # Single Page App routing fallback
+      - type: rewrite
+        source: /*
+        destination: /index.html

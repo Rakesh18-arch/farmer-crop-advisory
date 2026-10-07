@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Secrets
+.env
+backend/.env
+!.env.example
+!backend/.env.example
+
+# Temporary binaries and tunnels
+cloudflared.exe
+*.log
+LIVE_PUBLIC_URL.txt
+test_assets.py
+inspect_bundle.py
+
+# Database runtime files (schema and seeds are in version control)
+backend/database/*.db
+backend/database/*.sqlite
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
