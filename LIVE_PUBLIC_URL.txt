@@ -1,0 +1,25 @@
+=============================================================
+FARMER CROP ADVISORY PLATFORM - 24/7 ACTIVE PUBLIC URL
+=============================================================
+URL: https://individuals-pressing-vacuum-tested.trycloudflare.com
+
+Status: ACTIVE (Cloudflare Edge SSL)
+Mobile & Desktop: 100% Compatible, Zero Passwords, Zero Waiting
+
+DEMO ACCOUNTS:
+1. Farmer Role:
+   Email:    farmer@demo.org
+   Password: Farmer@123
+
+2. Admin Role:
+   Email:    admin@farmeradvisory.org
+   Password: Admin@123
+
+LLM ENGINES ACTIVE:
+- AgriLLM-Neural (Built-in Offline Knowledge Engine)
+- Google Gemini 1.5 Flash (If GEMINI_API_KEY set)
+- Groq Llama 3.3 70B (If GROQ_API_KEY set)
+- OpenAI GPT-4o Mini (If OPENAI_API_KEY set)
+
+Updated At: 2026-10-07 20:06:18
+=============================================================
