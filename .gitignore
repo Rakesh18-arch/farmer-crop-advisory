@@ -23,6 +23,7 @@ yarn-error.log*
 # Binaries & Temporary archives
 cloudflared.exe
 *.zip
+!downloads/farmer-crop-advisory.zip
 *.log
 
 # Sensitive environment variables
